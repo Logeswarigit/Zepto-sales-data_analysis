@@ -1,49 +1,30 @@
-Zepto Sales Data Analysis(SQL)
+# Zepto Sales Data Analysis (SQL)
 
-Project Overview
+## About This Project
+I analyzed Zepto e-commerce sales data using SQL to find top-performing products and understand sales trends.
 
-This project analyes Zepto e-commerce sales data using SQL to uncover key business insights such as product performance,
-category revenue and outofstock sales trends. The analysis helps understand customer purchasing patterns and sales 
-performance.
+## Tools Used
+- SQL
+- MySQL
 
-Tools Used
+## What I Did
+- Loaded the Zepto sales dataset into MySQL
+- Wrote SQL queries to explore sales, products, and revenue
+- Analyzed category-wise and city-wise sales performance
+- Calculated average order value and payment method distribution
 
-*SQL
-*My SQL
-*Data Analysis Queries
-*GitHub for project version control
+## What I Found
+- Identified the top-selling products by quantity and revenue
+- Analyzed which product categories contribute most to total revenue
+- Found monthly sales patterns useful for business planning
+- Explored payment method preferences across orders
 
+## SQL Concepts Used
+- Aggregate functions (SUM, COUNT, AVG)
+- GROUP BY and ORDER BY
+- Subqueries for deeper analysis
+- Date-based trend analysis
 
-Dataset
-
-The dataset contains zepto e-commerce sales details including product information, pricing, category and order
-data used to perform sales analysis.
-
-Key Analysis Performed
-
-* Total number of orders in the dataset
-* Total revenue generated from sales
-* Top selling products based on quantity
-* Category-wise revenue analysis
-* Outofstock-wise sales performance
-* Monthly sales trends
-* Average order value calculation
-
-Key SQL Queries
-
-> Aggregate functions(SUM, COUNT, AVG)
-> GROUP BY analysis
-> ORDER BY for ranking sales performance
-> Date-based sales trend analysis
-
-Insights
-
-> Identified top-performing products driving sales
-> Observed category-wise contribution to overall revenue
-> Analyzed geographic sales distribution across cities
-> Identified monthly sales patterns for business insights
-
-Conclusion
-
-This SQL analysis project demonstrates the ability to explore business datasets, write aalytical SQL queries adn
-extract meaningful insights from e-commerce sales data.
+## Files in This Project
+- `zepto.csv` — dataset used for analysis
+- `zepto_sql_analysis.sql` — all SQL queries used in this project
